@@ -1,13 +1,22 @@
 {
-  "name": "test_express",
+  "name": "w5-express-example",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "by omar",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSG-G8/w5-express-example.git"
+  },
+  "author": "omar",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GSG-G8/w5-express-example/issues"
+  },
+  "homepage": "https://github.com/GSG-G8/w5-express-example#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
